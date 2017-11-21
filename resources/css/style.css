@@ -1,0 +1,34 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* header CSS */
+.small-menu {
+  display: none;
+}
+
+header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  border: 2px solid red;
+}
+
+.container {
+  background-color: cadetblue;
+}
+.menu {
+  border: 2px solid green;
+}
+
+h1 {
+  background-color: white;
+}
+
+/* supporting CSS */
+
+/* info CSS */
+
+/* Footer CSS */
+footer {
+  background-color: azure;
+}
