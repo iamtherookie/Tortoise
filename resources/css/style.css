@@ -2,6 +2,7 @@ html {
   font-size: 18px;
   line-height: 1.4;
   background-color: white;
+  font-family: Helvetica;
 }
 
 /* header CSS */
@@ -11,11 +12,11 @@ html {
 
 header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
-  border: 2px solid red;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 30rem;
+  padding-top: 1rem;
 }
 
 .container {
@@ -24,14 +25,12 @@ header {
 }
 
 nav {
-  padding: 1rem 0;
   background-color: cadetblue;
   color: white;
-  margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: auto;
+  height: 3rem;
 }
 
 nav div {
@@ -50,21 +49,30 @@ nav img {
   margin-right: 1rem;
 }
 
-h1 {
-  background-color: white;
+nav span {
+  margin: 1rem;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.flex {
+  display: flex;
 }
 
 .main-banner h1 {
-  padding: 1.5rem 5rem;
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
 }
 
 .main-banner {
-  position: relative;
   margin-top: 10rem;
-  text-align: right;
+  margin-right: -2rem;
+  width: auto;
+  background-color: white;
+  padding: 1.5rem 5rem;
 }
 
 /* supporting CSS */
@@ -73,7 +81,10 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 3rem 6rem;
+  justify-content: space-between;
+  margin: 3rem 6rem;
+  height: 8rem;
+  width: 5rem;
 }
 
 .item img {
@@ -84,8 +95,9 @@ h1 {
   width: 5rem;
 }
 
-section.supporting {
+.supporting {
   display: flex;
+  justify-content: center;
 
 }
 /* info CSS */
@@ -97,6 +109,7 @@ section.supporting {
   font-size: 1rem;
   font-family: Helvetica;
   padding: .5rem 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .info {
