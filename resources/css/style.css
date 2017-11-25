@@ -91,7 +91,7 @@ header .flex {
   width: 3.5rem;
 }
 
-.item ruler img {
+.item .img.truck-icon {
   width: 5rem;
 }
 
@@ -135,4 +135,96 @@ footer img {
 
 footer span {
   display: inline;
+}
+
+
+/* Media Queries */
+
+/* Tablet */
+
+@media only  screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .main-banner {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: .75rem 4rem;
+  }
+
+  .main-banner h1 {
+    font-size: 1.33rem;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 700px) {
+  .menu ul {
+    display: none;
+  }
+
+  ul.small-menu {
+    display: block;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  div span {
+    display: none;
+  }
+
+  header {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .main-banner  {
+    margin-top: 9rem;
+  }
+
+  .main-banner h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .supporting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3.77rem;
+  }
+
+  .item {
+    margin: 1.54rem;
+  }
+
+  .item div {
+    font-size: .77rem;
+    margin: auto;
+  }
+
+  .info .title {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .info {
+    width: auto;
+    margin-bottom: 4rem;
+  }
+
+  .info p {
+    padding: 1rem;
+    font-size: .77rem;
+  }
 }
